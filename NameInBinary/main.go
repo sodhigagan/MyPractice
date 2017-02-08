@@ -3,6 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print("My name in binary is: ")
-	fmt.Printf("%b%b%b%b%b", 'G', 'a', 'g', 'a', 'n')
+	var A string
+	A = "Gagan"
+	fmt.Print("Your name : ")
+	fmt.Scan(A)
+	fmt.Print("Your name in Binary is: ")
+	fmt.Print(A)
 }
