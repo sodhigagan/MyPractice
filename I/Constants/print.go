@@ -1,10 +1,11 @@
-package Publish
+package Constants
 
 import "fmt"
 
 func DOB() {
-	fmt.Print(day, month, year)
+	fmt.Println(day, month, year)
 }
-func Name() {
-	fmt.Print(name)
+
+func Myname() {
+	fmt.Println(name)
 }

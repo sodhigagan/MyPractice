@@ -1,12 +1,8 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/sodhigagan/MyPractice/tree/master/I/Constants"
-)
+import "github.com/sodhigagan/MyPractice/I/Constants"
 
 func main() {
-	fmt.Println(Name)
-	Constants.Name()
+	Constants.Myname()
+	Constants.DOB()
 }
