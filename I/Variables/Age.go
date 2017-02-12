@@ -2,6 +2,6 @@ package Age
 
 import "fmt"
 
-func Age() {
+func main() {
 	fmt.Println(Year)
 }
