@@ -1,8 +1,8 @@
 package Details
 
 const (
-	day   = 6
-	month = 1
-	year  = 1983
-	name  = "Gagan"
+	Day   = 6
+	Month = 1
+	Year  = 1983
+	Name  = "Gagan"
 )

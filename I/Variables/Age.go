@@ -1,5 +1,7 @@
 package Age
 
+import "fmt"
+
 func Age() {
-	Years := 2017 - Year
+	fmt.Println(Year)
 }
