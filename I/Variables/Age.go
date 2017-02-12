@@ -1,7 +1,7 @@
-package Age
+package Variables
 
 import "fmt"
 
 func main() {
-	fmt.Println(Year)
+	fmt.Println(2017)
 }
