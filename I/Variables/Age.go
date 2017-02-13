@@ -1,7 +1,11 @@
 package Variables
 
-import "fmt"
+import (
+	"fmt"
 
-func main() {
-	fmt.Println(2017)
+	"github.com/sodhigagan/MyPractice/I/Constants"
+)
+
+func Old() {
+	fmt.Print(", so that makes me ", 2017-Constants.Year, " years and ", 2-Constants.Month, " month(s) old")
 }

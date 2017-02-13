@@ -3,9 +3,9 @@ package Constants
 import "fmt"
 
 func DOB() {
-	fmt.Println("I was born on ", day, "-", month, "-", year)
+	fmt.Print("I was born on ", Day, "-", Month, "-", Year)
 }
 
 func Myname() {
-	fmt.Println("I am ", name)
+	fmt.Print("I am ", Name, ". ")
 }
