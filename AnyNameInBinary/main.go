@@ -5,8 +5,14 @@ import (
 )
 
 func main() {
-	var L1 string
+	var name string
+	var length, i int
 	fmt.Println("Enter your name:")
-	fmt.Scan(&L1)
-	fmt.Println("nice to meet you", L1)
+	fmt.Scan(&name)
+	length = len(name)
+	fmt.Print("Nice to meet you ")
+
+	for i = 0; i < length; i++ {
+		fmt.Printf("%b ", name[i])
+	}
 }
