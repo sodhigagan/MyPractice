@@ -1,14 +1,15 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
-var change float32
+var change, cents float32
 
 func main() {
 	fmt.Print("O hai!")
-	fmt.Println("How much change is owed: ")
+	fmt.Print("How much change is owed: ")
 	fmt.Scan(&change)
-	fmt.Println("So it is ", change)
+
+	cents = (change * 100)
+	fmt.Println("Cents are ", cents)
+	fmt.Printf("Cents are %.2f", cents)
 }
