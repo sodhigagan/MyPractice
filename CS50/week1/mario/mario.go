@@ -2,9 +2,8 @@ package main
 
 import "fmt"
 
-var h int
-
 func main() {
+	var h int
 Height:
 	fmt.Print("Height: ")
 	fmt.Scan(&h)
@@ -16,6 +15,19 @@ Height:
 		fmt.Println("too much, try again")
 		goto Height
 	} else {
-		fmt.Println("perfect")
+		for i := 1; i <= h; i++ {
+			for spaces := h - i; spaces != 0; spaces-- {
+				fmt.Print(" ")
+			}
+			for hash1 := h - i; hash1 != h; hash1++ {
+				fmt.Print("")
+			}
+			fmt.Print("  ")
+			for hash2 := h - i; hash2 != h; hash2++ {
+				fmt.Print("")
+			}
+			fmt.Print("\n")
+		}
 	}
+
 }
