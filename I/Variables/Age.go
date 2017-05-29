@@ -7,5 +7,5 @@ import (
 )
 
 func Old() {
-	fmt.Print(", so that makes me ", 2017-Constants.Year, " years and ", 2-Constants.Month, " month(s) old")
+	fmt.Print(", so that makes me ", 2017-Constants.Year, " years and ", 5-Constants.Month, " month(s) old")
 }
